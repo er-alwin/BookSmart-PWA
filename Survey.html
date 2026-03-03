@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BookSmart Survey</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Personalize Your Travel Experience</h2>
+
+    <form id="surveyForm">
+
+        <label>Budget Range:</label>
+        <select id="budget">
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="Premium">Premium</option>
+        </select>
+
+        <label>Preferred Transport:</label>
+        <select id="transport">
+            <option value="Flight">Flight</option>
+            <option value="Train">Train</option>
+            <option value="Bus">Bus</option>
+        </select>
+
+        <label>Travel Purpose:</label>
+        <select id="purpose">
+            <option value="Business">Business</option>
+            <option value="Leisure">Leisure</option>
+            <option value="Family">Family</option>
+        </select>
+
+        <label>Accommodation Preference:</label>
+        <select id="hotel">
+            <option value="Budget">Budget</option>
+            <option value="3Star">3-Star</option>
+            <option value="5Star">5-Star</option>
+        </select>
+
+        <label>Travel Frequency:</label>
+        <select id="frequency">
+            <option value="Rare">Rare</option>
+            <option value="Occasional">Occasional</option>
+            <option value="Frequent">Frequent</option>
+        </select>
+
+        <br><br>
+        <button type="button" onclick="saveSurvey()">Continue</button>
+
+    </form>
+</div>
+
+<script src="js/survey.js"></script>
+</body>
+</html>
